@@ -1,0 +1,29 @@
+{
+    "name": "test",
+    "phase": "test",
+    "gpu_ids": "1",
+    "display_port": 8097,
+    "path": {
+        "log": "logs",
+        "tb_logger": "tb_logger",
+        "results": "results",
+        "checkpoint": "checkpoint",
+        "resume_state": "<CHECKPOINT_PATH>/model_gen_G.pth"
+    },
+    "datasets": {
+        "test": {
+            "name": "shoulder_joint_landmarks",
+            "testroot": "<DATA_ROOT>/test",
+            "cacheroot": "<DATA_ROOT>/cache/scapula",
+            "image_size": [256, 256, 256],
+            "data_len": -1,
+            "batch_size": 1,
+            "num_workers": 8,
+            "use_shuffle": false,
+            "heat_sigma": 2,
+            "points_part": "scapula",
+            "rebuild_cache": false,
+            "use_labels": true
+        }
+    }
+}
