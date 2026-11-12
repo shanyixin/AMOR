@@ -1,0 +1,136 @@
+{
+  "methods": [
+    {
+      "method": "AMOR (Ours)",
+      "category": "Heatmap Regression",
+      "training_input": "1 x 256 x 256 x 256",
+      "optimizer": "Adam (weight decay: 1e-4)",
+      "initial_learning_rate": "1e-4",
+      "max_epochs": 500,
+      "batch_size": 1,
+      "parameters_millions": 15.955,
+      "macs_giga": 906.1
+    },
+    {
+      "method": "nnMamba",
+      "category": "Heatmap Regression",
+      "training_input": "1 x 256 x 256 x 256",
+      "optimizer": "Adam (weight decay: 1e-4)",
+      "initial_learning_rate": "1e-4",
+      "max_epochs": 500,
+      "batch_size": 1,
+      "parameters_millions": 15.977,
+      "macs_giga": 1528.6
+    },
+    {
+      "method": "CeLR",
+      "category": "Coordinate Regression",
+      "training_input": "1 x 256 x 256 x 256",
+      "optimizer": "Adam (weight decay: 1e-4)",
+      "initial_learning_rate": "1e-4",
+      "max_epochs": 500,
+      "batch_size": 1,
+      "parameters_millions": 36.268,
+      "macs_giga": 80.4
+    },
+    {
+      "method": "HypergraphLandmark",
+      "category": "Coordinate Regression",
+      "training_input": "1 x 256 x 256 x 256",
+      "optimizer": "Adam (weight decay: 1e-4)",
+      "initial_learning_rate": "1e-4",
+      "max_epochs": 500,
+      "batch_size": 1,
+      "parameters_millions": 8.536,
+      "macs_giga": 74.3
+    },
+    {
+      "method": "Maxillofacial-Landmark",
+      "category": "Heatmap Regression",
+      "training_input": "1 x 256 x 256 x 256",
+      "optimizer": "Adam (weight decay: 1e-4)",
+      "initial_learning_rate": "1e-4",
+      "max_epochs": 500,
+      "batch_size": 1,
+      "parameters_millions": 8.454,
+      "macs_giga": 3889.2
+    },
+    {
+      "method": "SA-LSTM",
+      "category": "Coordinate Regression",
+      "training_input": "1 x 256 x 256 x 256",
+      "optimizer": "Adam (weight decay: 1e-4)",
+      "initial_learning_rate": "1e-4",
+      "max_epochs": 500,
+      "batch_size": 1,
+      "parameters_millions": 16.963,
+      "macs_giga": 5870.0
+    },
+    {
+      "method": "Stacked Hourglass 3D",
+      "category": "Heatmap Regression",
+      "training_input": "1 x 256 x 256 x 256",
+      "optimizer": "Adam (weight decay: 1e-4)",
+      "initial_learning_rate": "1e-4",
+      "max_epochs": 500,
+      "batch_size": 1,
+      "parameters_millions": 33.545,
+      "macs_giga": 1917.0
+    },
+    {
+      "method": "NFDP",
+      "category": "Heatmap Regression",
+      "training_input": "1 x 256 x 256 x 256",
+      "optimizer": "Adam (weight decay: 1e-4)",
+      "initial_learning_rate": "1e-4",
+      "max_epochs": 500,
+      "batch_size": 1,
+      "parameters_millions": 35.976,
+      "macs_giga": 383.7
+    },
+    {
+      "method": "FDGR-Net",
+      "category": "Heatmap Regression",
+      "training_input": "1 x 256 x 256 x 256",
+      "optimizer": "Adam (weight decay: 1e-4)",
+      "initial_learning_rate": "1e-4",
+      "max_epochs": 500,
+      "batch_size": 1,
+      "parameters_millions": 64.394,
+      "macs_giga": 537.4
+    },
+    {
+      "method": "Cephmark-Net",
+      "category": "Coordinate Regression",
+      "training_input": "1 x 256 x 256 x 256 volume; slice-wise 256 x 256 processing",
+      "optimizer": "Adam (weight decay: 1e-4)",
+      "initial_learning_rate": "1e-4",
+      "max_epochs": 500,
+      "batch_size": 1,
+      "parameters_millions": 223.057,
+      "macs_giga": 20046.8
+    },
+    {
+      "method": "TransMorph",
+      "category": "Registration (Swin)",
+      "training_input": "2 x 256 x 256 x 256 (image pair)",
+      "optimizer": "Adam (weight decay: 1e-4)",
+      "initial_learning_rate": "1e-4",
+      "max_epochs": 500,
+      "batch_size": 1,
+      "parameters_millions": 46.905,
+      "macs_giga": 1806.5
+    },
+    {
+      "method": "MambaMorph",
+      "category": "Registration (Mamba)",
+      "training_input": "2 x 256 x 256 x 256 (image pair)",
+      "optimizer": "Adam (weight decay: 1e-4)",
+      "initial_learning_rate": "1e-4",
+      "max_epochs": 500,
+      "batch_size": 1,
+      "parameters_millions": 7.305,
+      "macs_giga": 1578.3
+    }
+  ]
+}
